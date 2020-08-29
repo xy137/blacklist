@@ -1,0 +1,17 @@
+[package]
+name = "blacklist_bot"
+version = "0.1.0"
+authors = ["xy137 <xy137y@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sled = "0.34.3"
+serenity = "0.9.0-rc.0"
+tokio = "0.2.22"
+dirs = "3.0.1"
+dotenv = "0.15.0"
+
+[profile.dev]
+debug = false
